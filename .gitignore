@@ -1,0 +1,6 @@
+# Ignore any local tokens, tar exports, or scratch files
+*.tar
+*.log
+.DS_Store
+.gemini/
+antigravity-oauth-token

@@ -1,0 +1,8 @@
+# spec.yaml
+name: hermes-agy-sandbox
+agent:
+  image: nousresearch/hermes-agent:latest
+capabilities:
+  network: true
+
+

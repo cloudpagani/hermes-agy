@@ -1,0 +1,12 @@
+# sbxenv.yaml — Replicable Docker Sandbox environment with native Linux agy + Hermes
+schemaVersion: "1"
+name: hermes-agy-sandbox
+
+agent: shell
+
+workspace:
+  path: ./workspace
+  clone: false
+
+sandboxOptions:
+  template: docker.io/library/hermes-agy:v1
